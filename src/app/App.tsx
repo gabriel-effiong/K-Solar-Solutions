@@ -11,7 +11,7 @@ import { Footer } from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-background text-foreground" style={{ fontFamily: "Inter, sans-serif" }}>
+    <div className="min-h-screen bg-background text-foreground">
       {/* MARKER-MAKE-KIT-INVOKED */}
       <Navbar />
       <Hero />
