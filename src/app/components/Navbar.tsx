@@ -43,7 +43,7 @@ export function Navbar() {
             className="text-primary"
             style={{ fontFamily: "'DM Serif Display', serif", fontSize: "1.25rem" }}
           >
-            SolarVerde
+            K-Solar Solutions
           </span>
         </button>
 

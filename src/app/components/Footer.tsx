@@ -31,7 +31,7 @@ export function Footer() {
               className="text-white/50 text-sm leading-relaxed mb-5"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-              California's trusted solar partner since 2011. NABCEP certified, BBB A+ rated.
+              Nigeria's trusted solar partner since 2025. NABCEP certified, BBB A+ rated.
             </p>
             <div className="flex gap-3">
               {[Instagram, Facebook, Linkedin, Twitter].map((Icon, i) => (

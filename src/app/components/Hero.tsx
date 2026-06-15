@@ -33,7 +33,7 @@ export function Hero() {
             className="text-white/80 text-sm"
             style={{ fontFamily: "Inter, sans-serif" }}
           >
-            Trusted by 2,400+ homeowners across California
+            Trusted by 200+ homeowners across Nigeria
           </span>
         </div>
 
@@ -54,10 +54,15 @@ export function Hero() {
 
         <p
           className="text-white/75 max-w-xl mb-10"
-          style={{ fontFamily: "Inter, sans-serif", fontSize: "1.125rem", lineHeight: 1.7 }}
+          style={{
+            fontFamily: "Inter, sans-serif",
+            fontSize: "1.125rem",
+            lineHeight: 1.7,
+          }}
         >
-          California's most trusted solar installer since 2011. We design, install, and
-          maintain custom solar systems — from single-family homes to commercial rooftops.
+          Nigeria's most trusted solar installer since 2025. We design, install,
+          and maintain custom solar systems — from single-family homes to
+          commercial rooftops.
         </p>
 
         <div className="flex flex-wrap gap-4">
@@ -85,15 +90,18 @@ export function Hero() {
         {/* Stats row */}
         <div className="mt-16 flex flex-wrap gap-10">
           {[
-            { value: "12+ yrs", label: "In Business" },
-            { value: "2,400+", label: "Homes Powered" },
+            { value: "2+ yrs", label: "In Business" },
+            { value: "200+", label: "Homes Powered" },
             { value: "$1.8M+", label: "Client Savings/yr" },
             { value: "25-yr", label: "Warranty" },
           ].map((s) => (
             <div key={s.label}>
               <div
                 className="text-white"
-                style={{ fontFamily: "'DM Serif Display', serif", fontSize: "2rem" }}
+                style={{
+                  fontFamily: "'DM Serif Display', serif",
+                  fontSize: "2rem",
+                }}
               >
                 {s.value}
               </div>
